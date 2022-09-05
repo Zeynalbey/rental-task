@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+
+}
+
+
+header a{
+
+    color: rgb(0, 0, 0);
+}
+
+
+.logo{
+    padding-right: 20rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav ul .kuk{
+    padding: 3px 5px 0px 24px
+}
+
+
+
+header .zzz a{
+    background-color: rgb(73, 91, 183);
+    margin-left: 5rem;
+    padding: 10px 25px 10px 25px;
+ 
+    color: white;
+    border-radius: 7px;
+    
+}
+
+section{
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1501183638710-841dd1904471?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1200&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+}
+
+section .first {
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 1.5rem;
+
+}
+
+.first .firt{
+    background-color:#0061f2;
+    border-radius: 5px;
+    margin-right: 30px;
+    padding: 7px 13px 7px 13px;
+    color: white;
+}
+.first .firt:hover{
+    background-color: #0343a3;
+}
+
+.first p{
+    padding-bottom: 30px;
+}
+
+.first .last{
+    color: black;
+    font-weight: bold ;
+}
+
+.first .last:hover{
+    text-decoration: underline;
+}
+
+.pictures .photo img{
+    width: 100%;
+  
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6rem 13rem 0 13rem;
+}
+.pictures .all{
+    width: 30%;
+    border: 1px 1px 1px rgb(0, 0, 0);
+    box-shadow: 2px black;
+}
+
+.pictures .all .photo img{
+    border-radius: 8px;
+}
+
+.pictures .all {
+    padding-bottom: 20px;
+    border:1px solid rgba(232, 224, 224, 0.513) ;
+    margin-bottom: 50px;
+    border-radius: 10px;
+   transition: 0.5s;
+}
+.pictures .all:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px #efeaea;
+}
+
+hr{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.all .bottom h3,p,a{
+    padding-left: 20px;
+   
+}
+
+.all .bottom h3{
+    margin: 7px;
+}
+
+.all .bottom p{
+    margin-bottom: 20px;
+}
+
+.all .bottom .aaa{
+    padding-left: 12rem;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
